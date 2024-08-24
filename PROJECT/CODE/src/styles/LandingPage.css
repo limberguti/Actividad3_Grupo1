@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+.landingPage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.landingPage .banner-wrapper {
+    background-color: #ffffff;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.landingPage .banner {
+    height: 100%;
+    width: 100%;
+}
+
+.landingPage .overlap-group {
+    background: linear-gradient(180deg, rgb(13, 13, 13) 12.92%, rgb(66, 39, 242) 93.12%);
+    border: 1px solid;
+    border-color: #000000;
+    height: 809px;
+    width: 100%;
+    position: relative;
+}
+
+.landingPage .header {
+    background-color: transparent;
+    height: 73px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.landingPage .text-wrapper {
+    color: #dff6ff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 27px;
+    left: 42px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    width: 80px;
+}
+
+.landingPage .div {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 68px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    width: 56px;
+}
+
+.landingPage .button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.landingPage .button-image {
+    background-image: url(../assets/Button.png);
+    background-size: 100% 100%;
+    height: 86px;
+    left: 104px;
+    position: absolute;
+    top: 584px;
+    width: 444px;
+    transition: transform 0.3s ease;
+}
+
+.landingPage .button:hover .button-image {
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+}
+
+.landingPage .headline {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 60px;
+    font-weight: 700;
+    height: 288px;
+    left: 104px;
+    letter-spacing: -2.4px;
+    line-height: 96px;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 219px;
+    width: 626px;
+}
+
+.landingPage .frame {
+    height: 773px;
+    position: absolute;
+    right: 0;
+    top: 144px;
+    width: 825px;
+}

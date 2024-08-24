@@ -1,0 +1,18 @@
+homepage: "https://suricata.io"
+language: rust
+primary_contact: "vjulien@openinfosecfoundation.org"
+auto_ccs:
+- "jish@openinfosecfoundation.org"
+- "p.antoine@catenacyber.fr"
+sanitizers:
+  - address
+  - memory
+  - undefined
+fuzzing_engines:
+  - afl
+  - honggfuzz
+  - libfuzzer
+architectures:
+  - x86_64
+  - aarch64
+main_repo: 'https://github.com/OISF/suricata.git'

@@ -1,0 +1,90 @@
+
+.nav-bar{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 300px;
+  background-color: transparent;
+}
+.nav-bar-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.nav-bar-logo h4{
+  /* text-align: center; */
+  font-family: 'Turret Road', cursive;
+}
+.nav-bar-logo img{
+    width: 150px;
+}
+.highlight{
+  color: #def227;
+  
+}
+.nav-bar-gameCategories{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #def227;
+}
+.nav-bar-gameCategories_link{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.nav-bar-gameCategories_link a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+.nav-bar-gameCategories_link svg {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-bar-gameCategories_link svg:hover {
+    color: #ffffff;
+    animation-name: moveUpDown;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.nav-bar-gameCategories_link:hover a {
+  color: #def227;
+}
+.nav-bar-gameCategories_link.active svg {
+  color: #def227;
+  }
+  
+  
+.nav-bar-buttonLoginAndCart{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+  

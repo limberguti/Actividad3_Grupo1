@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pc-page{
+    background: #000;
+}
+
+.pc-page h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.games-container{
+    margin: 5px 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+
+.games-container__section{
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 10px 0;
+    margin: 5px 0 20px 0;
+}
+
+.games__price{
+    font-size: 22px;
+}
+
+.games-container img{
+    width: 250px;
+    height: 280px;
+    border-radius: 8px;
+}
